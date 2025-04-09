@@ -1,7 +1,23 @@
 CC = g++
 CFLAGS = -Wall -Wextra -std=c++11 -Iinclude
 
-SRC = src/main.cpp src/tinyxml/tinyxml2.cpp
+SRC = \
+      src/tinyxml/tinyxml2.cpp \
+	  src/AmbientLight.cpp \
+	  src/Camera.cpp \
+	  src/Color.cpp \
+	  src/Face.cpp \
+	  src/Intensity.cpp \
+	  src/Light.cpp \
+	  src/Material.cpp \
+	  src/Math.cpp \
+	  src/Object.cpp \
+	  src/Parser.cpp \
+	  src/Plane.cpp \
+	  src/PointLight.cpp \
+	  src/Scene.cpp \
+	  src/Vector.cpp \
+	  src/main.cpp 
 
 BUILD = build
 

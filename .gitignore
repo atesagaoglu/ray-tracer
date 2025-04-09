@@ -1,2 +1,4 @@
 raytracer
 build/
+
+*.ppm
